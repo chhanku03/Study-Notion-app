@@ -4,7 +4,7 @@ import Template from '../components/Template';
 
 const SignUp = ({setIsLogedIn}) => {
   return (
-    <div>
+    <div className='overflow-auto'>
       <Template
         title="Joins the milions learning to code with study notion for free"
         desc1="Build skills for today , tomorrow , and beyond"

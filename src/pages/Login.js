@@ -4,7 +4,7 @@ import loginImg from '../assets/login.png'
 
 const Login = ({setIsLogedIn}) => {
   return (
-    <div>
+    <div className='overflow-auto'>
         <Template
           title="Welcome Back"
           desc1="Build skills for today,tomorrow ,and beyond"
